@@ -20,4 +20,5 @@ android {
 
 dependencies {
     compile fileTree(dir: 'lib', include: ['*.jar'])
+    compile 'com.jimulabs.mirrorsandbox:mirror-sandbox:0.1.+'
 }
