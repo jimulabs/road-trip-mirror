@@ -12,8 +12,6 @@ public class MainBox(private val mRootView: View) : MirrorSandbox {
     {
         val introView = mRootView.findViewById(R.id.intro) as IntroView
         introView.setSvgResource(R.raw.map_usa)
-        //        introView.stopWaitAnimation();
-        //        introView.setDrag(0.5f);
     }
 
     override fun enterSandbox() {
