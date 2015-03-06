@@ -1,3 +1,9 @@
+## road-trip-mirror
+This is a sample project for demonstrating Mirror's [Kotlin support](http://jimulabs.com/2015/02/mirror-kotlin/).
+
+Below is the original README.
+
+
 RoadTrip
 ========
 

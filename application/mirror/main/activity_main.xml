@@ -1,0 +1,10 @@
+<!-- [ Mirror metadata ] generatedAt: 1424587281256 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen sandbox="org.curiouscreature.android.roadtrip.MainBox" theme="@style/Theme.TranslucentActionBar.Overlay">
+    <_content layout="@layout/activity_main">
+    </_content>
+</screen>
