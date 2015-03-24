@@ -89,7 +89,7 @@ public class IntroView(context: Context, attrs: AttributeSet) : View(context, at
         public fun onReady()
     }
 
-    {
+    init {
 
         val a = context.obtainStyledAttributes(attrs, R.styleable.IntroView, 0, 0)
         try {
@@ -256,7 +256,7 @@ public class IntroView(context: Context, attrs: AttributeSet) : View(context, at
         return PathDashPathEffect(makeConcaveArrow(mArrowLength.toFloat(), mArrowHeight.toFloat()), mArrowLength.toFloat() * 1.2f, Math.max(phase * pathLength, offset), PathDashPathEffect.Style.ROTATE)
     }
 
-    class object {
+    companion object {
         private val LOG_TAG = "IntroView"
 
         private fun createPathEffect(pathLength: Float, phase: Float, offset: Float): PathEffect {
